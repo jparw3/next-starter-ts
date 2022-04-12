@@ -3,6 +3,7 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
+    "lint": "eslint --fix --ext .js,.jsx,.ts,.tsx .",
     "start": "next start",
     "prepare": "husky install",
     "check-types": "tsc --pretty --noEmit",
