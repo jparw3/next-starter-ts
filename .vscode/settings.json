@@ -5,5 +5,25 @@
   "editor.codeActionsOnSave": {
     "source.fixAll.eslint": true,
     "source.fixAll.format": true
+  },
+  "files.exclude": {
+    "**/.git": true,
+    "**/.svn": true,
+    "**/.hg": true,
+    "**/CVS": true,
+    "**/.DS_Store": true,
+    "**/Thumbs.db": true,
+    "**/*.lock": true,
+    "**/*.gitignore": true,
+    "**/*.d.ts": true,
+    "**/*.config.js": true,
+    "**/*.tsbuildinfo": true,
+    "**/*.eslintrc.js": true,
+    "**/*-lock.json": true,
+    "**/node_modules": true,
+    "**/.husky": true,
+    "**/.next": true,
+    "**/tsconfig.json": true,
+    "**/.prettierrc": true
   }
 }
